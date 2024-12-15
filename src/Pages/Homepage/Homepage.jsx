@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Stack } from 'react-bootstrap';
+import Banner from './HomeComponents/Banner/Banner';
 
 const Homepage = () => {
     return (
         <div>
-            homepages
+            <Banner></Banner>
             
         </div>
     );

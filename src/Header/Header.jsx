@@ -8,7 +8,15 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="navbar">
+      <Navbar
+        style={{
+          backgroundColor: "#262626",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        }}
+        collapseOnSelect
+        expand="lg"
+        className="navbar"
+      >
         <Container>
           {/* start */}
           <Navbar.Brand href="/home" className="navbar-brand">
