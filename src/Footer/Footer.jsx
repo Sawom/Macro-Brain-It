@@ -15,7 +15,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <section>
+    <section className="my-5">
       {/* Part 1 */}
       <div style={{ backgroundColor: "#151515" }}>
         <br />

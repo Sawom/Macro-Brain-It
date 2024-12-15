@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import img from "../../../../assets/banner.jpg";
 import "./Banner.css";
 
@@ -17,6 +17,8 @@ const Banner = () => {
             to help users gain insights, automate tasks, and drive smarter
             outcomes with ease.
           </p>
+
+          <button className=" learn-more-btn">Learn More</button>
         </Col>
         {/* 2nd col */}
         <Col xs={12} md={6} lg={6}>
