@@ -19,7 +19,7 @@ const Header = () => {
       >
         <Container>
           {/* start */}
-          <Navbar.Brand href="/home" className="navbar-brand">
+          <Navbar.Brand href="/" className="navbar-brand">
             Macro-Brain-It
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,7 +27,7 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             {/* middle */}
             <Nav className="mx-auto">
-              <NavLink className="nav-link" to="/home">
+              <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
               <NavLink className="nav-link" to="/features">
